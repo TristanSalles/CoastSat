@@ -29,9 +29,9 @@ if __name__ == "__main__":
           packages          = ['coastsat'],
           install_requires  = [
                         'numpy>=1.16.3',
-                        'earthengine-api==0.1.173',
+                        'earthengine-api==0.1.236',
                         'geopandas==0.4.1',
-                        'pytz==2019.1',
+                        'pytz==2020.1',
                         'spyder==3.3.4',
                         'pandas>=0.25',
                         'seaborn>=0.9',
@@ -40,7 +40,7 @@ if __name__ == "__main__":
                         'shapely>=1.6.4',
                         'scikit-image>=0.15.0',
                         'scikit-learn>=0.20.3',
-                        'astropy'
+                        'astropy=3.2.1',
                         ],
           python_requires   = '>=3.7',
           # package_data      = {'coastsat': ['Notebooks/notebooks/*ipynb',
